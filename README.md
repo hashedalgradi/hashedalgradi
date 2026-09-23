@@ -1,7 +1,7 @@
 <div align="center">
 
-  <!-- Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:03a9f4,50:028bca,100:3374ff&height=220&section=header&text=Hashed%20Algradi&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20%7C%20UI/UX%20Designer%20%7C%20Flutter%20%26%20Laravel&descAlignY=62&descSize=19" width="100%" alt="Header Banner" />
+  <!-- Header Banner (You can upload banner.jpg to your repository or use the dynamic SVG below) -->
+  <img src="banner.jpg" width="100%" alt="Hashed Algradi Banner" />
 
   <!-- Animated Typing Tagline -->
   <a href="https://hashedalgradi.tech">
@@ -96,16 +96,57 @@
 ### 🌟 Featured Projects | أبرز الأعمال والمشاريع
 
 <table>
+  <!-- Flagship Enterprise LMS Project -->
+  <tr>
+    <td colspan="2" valign="top">
+      <h3 align="center">🎓 مسار جامعتي — منصة التعليم الجامعي المتكاملة (Masar Jamiati LMS)</h3>
+      <p align="center">
+        <b>منظومة إلكترونية رائدة لإدارة التعليم الجامعي (طُبّقت فعلياً في جامعة الرشيد الذكية)</b>
+        <br>
+        <i>Enterprise Web App & Mobile Ecosystem — Full-Stack & UI/UX Architecture</i>
+      </p>
+      <ul>
+        <li><b>🏛️ هندسة ومعمارية الباكيند (Laravel 12 Clean Architecture):</b>
+          <ul>
+            <li>بناء وتطبيق معمارية برمجية متقدمة تفصل بين طبقات المنطق (Domain Layer) والبيانات بأمان تام.</li>
+            <li>نظام <b>الرفع المجزأ (Chunk Upload)</b> لمعالجة ورفع المحاضرات والمرفقات الضخمة بسلاسة دون استنزاف موارد السيرفر.</li>
+            <li>معالجة العمليات والملفات الثقيلة وضغطها عبر <b>طوابير المعالجة الخلفية (Laravel Queues & Background Jobs)</b>.</li>
+            <li>نظام صلاحيات وأدوار أكاديمية صارم <b>RBAC يغطي 8 أدوار مختلفة</b> (رئاسة الجامعة، العمداء، المدرسين، الطلاب، وغيرهم).</li>
+            <li>معالجة البيانات الضخمة وفحص ملفات الطلاب عبر <b>Spatie Simple Excel</b> مع واجهة تدقيق تفاعلية للمستخدم باللغة العربية.</li>
+            <li>إدارة الكاش متعدد الطبقات <b>(PageCache & BlogCache)</b> مع تكامل PWA و Service Workers لتجربة صامدة حتى عند تذبذب الإنترنت.</li>
+          </ul>
+        </li>
+        <li><b>🎨 سيكولوجية التصميم وتجربة المستخدم (Design Psychology & Inclusive UX):</b>
+          <ul>
+            <li>مكافحة الإرهاق المعرفي (Cognitive Overload) للطلاب في تسجيل المواد عبر مسار خطوات تتابعي وتدقيق لحظي للمتطلبات السابقة.</li>
+            <li>عزل الكثافة البصرية للمدرسين عبر واجهة خاصة (TeacherShellScreen) ونوافذ منبثقة تفاعلية بمؤشرات إنجاز واضحة.</li>
+            <li>تفاعل بصري بهيج (Micro-interactions & Lottie) عند تسليم الواجبات وإعلان النتائج، مع Skeleton Shimmer أثناء التحميل.</li>
+          </ul>
+        </li>
+        <li><b>📱 تطبيق الجوال (Cross-Platform Flutter):</b> تطبيق متكامل مبني بـ <b>Flutter & Riverpod</b> ومتصل بـ RESTful APIs آمنة وإشعارات فورية عبر <b>Firebase FCM (DevicePushService)</b>.</li>
+      </ul>
+      <p align="center">
+        <a href="https://hashedalgradi.tech/projects/a1f5e6c3-fccd-4323-94e3-1d8269614a38">
+          <img src="https://img.shields.io/badge/🔗_دراسة_الحالة_الكاملة_(Web_%26_Backend)-03A9F4?style=for-the-badge&logoColor=white" alt="LMS Web & Backend Case Study" />
+        </a>
+        &nbsp;
+        <a href="https://hashedalgradi.tech/projects/a232244e-62a9-4b2f-b6d5-7bc9022f7f2d">
+          <img src="https://img.shields.io/badge/📱_تفاصيل_تطبيق_الهاتف_(Flutter)-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="LMS Mobile App Case Study" />
+        </a>
+      </p>
+    </td>
+  </tr>
+  <!-- Daftr App & Souqak App -->
   <tr>
     <td width="50%" valign="top">
       <h3 align="center">📱 تطبيق دفتر — Daftr App</h3>
       <p align="center">
-        <b>تطبيق مالي لإدارة الديون والحسابات (Offline-First)</b>
+        <b>تطبيق مالي شخصي لإدارة الديون والحسابات (Offline-First)</b>
       </p>
       <ul>
-        <li>بديل رقمي متطور للدفاتر الورقية التقليدية بدون الحاجة لاتصال إنترنت.</li>
-        <li>حاسبة مدمجة، وتوثيق المعاملات، وصانع حالات ورسائل سداد احترافية.</li>
-        <li><b>التقنيات:</b> Flutter, Dart, Offline DB, Fitts's Law UX.</li>
+        <li>بديل رقمي متطور للدفاتر الورقية التقليدية بدون الحاجة لاتصال دائم بالإنترنت.</li>
+        <li>تسجيل المعاملات وتوثيقها بالمرفقات، مع حاسبة مدمجة وصانع حالات ورسائل سداد احترافية وودية.</li>
+        <li><b>التقنيات:</b> Flutter, Dart, Local Storage, Design Psychology (Fitts's Law UX).</li>
       </ul>
       <p align="center">
         <a href="https://hashedalgradi.tech/projects/a25e0327-a49c-4dd7-b8d5-d32d883a37fa">🔗 دراسة الحالة وتفاصيل المشروع</a>
@@ -114,28 +155,15 @@
     <td width="50%" valign="top">
       <h3 align="center">🛍️ تطبيق سوقك — Souqak E-commerce</h3>
       <p align="center">
-        <b>منصة وتطبيق متكامل للتجارة الإلكترونية</b>
+        <b>منصة وتطبيق متكامل للتجارة الإلكترونية العصرية</b>
       </p>
       <ul>
-        <li>تصميم UX/UI عصري وتدفق مرن للمستخدم بين الشاشات والمنتجات.</li>
-        <li>ربط متين بين واجهة التطبيق واللوحة الخلفية لمعالجة الطلبات والبيانات.</li>
+        <li>تصميم UX/UI عصري وتدفق مرن وسلس للمستخدم بين تصنيفات المنتجات وسلة الشراء.</li>
+        <li>ربط متين بين واجهة تطبيق الهاتف واللوحة الخلفية لمعالجة العمليات وتحديث البيانات لحظياً.</li>
         <li><b>التقنيات:</b> Flutter, Laravel, Vue.js, Tailwind CSS, REST APIs.</li>
       </ul>
       <p align="center">
         <a href="https://hashedalgradi.tech/projects/a1f5e6d4-92e2-41d1-b0ac-94410e5f88fa">🔗 دراسة الحالة وتفاصيل المشروع</a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <h3 align="center">🎓 تطبيق مسار جامعتي — Masar Jamiati</h3>
-      <p align="center">
-        <b>منظومة تعليمية ذكية لإدارة شؤون الطلاب والمسار الأكاديمي</b>
-      </p>
-      <p align="center">
-        <b>التقنيات:</b> Full-Stack Development (Flutter + RESTful APIs) | تجربة مستخدم عربية سهلة وسلسة.
-        <br>
-        <a href="https://hashedalgradi.tech/projects/a232244e-62a9-4b2f-b6d5-7bc9022f7f2d">🔗 استكشاف المشروع على الموقع</a>
       </p>
     </td>
   </tr>
@@ -146,8 +174,8 @@
 ### 📊 GitHub Activity & Stats | إحصائيات ونشاط الحساب
 
 <div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=hashedalgradi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=03a9f4&icon_color=03a9f4&text_color=c9d1d9" height="165" alt="GitHub Stats" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=hashedalgradi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=03a9f4&text_color=c9d1d9" height="165" alt="Top Languages" />
+  <img src="https://github-stats-extended.vercel.app/api?username=hashedalgradi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=03a9f4&icon_color=03a9f4&text_color=c9d1d9" height="165" alt="GitHub Stats" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=hashedalgradi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=03a9f4&text_color=c9d1d9" height="165" alt="Top Languages" />
 </div>
 
 <p align="center">
