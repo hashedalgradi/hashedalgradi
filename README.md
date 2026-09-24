@@ -193,8 +193,8 @@
     <img src="https://img.shields.io/badge/Official%20Website-hashedalgradi.tech-03a9f4?style=for-the-badge&logo=safari&logoColor=white" />
   </a>
   &nbsp;
-  <a href="mailto:hashed.cam@gmail.com">
-    <img src="https://img.shields.io/badge/Direct%20Email-hashed.cam%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  <a href="mailto:hashedalgradi.tech@gmail.com">
+    <img src="https://img.shields.io/badge/Direct%20Email-hashedalgradi.tech%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   &nbsp;
   <a href="https://wa.me/967771217175">
