@@ -24,7 +24,7 @@
       <img src="https://img.shields.io/badge/WhatsApp-Contact%20Me-25d366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
     </a>
     <a href="mailto:hashedalgradi.tech@gmail.com">
-      <img src="https://img.shields.io/badge/Email-hashed.cam%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+      <img src="https://img.shields.io/badge/Email-hashedalgradi.tech%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
   </p>
 
